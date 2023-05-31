@@ -3,16 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Todos os remédios</title>
   </head>
+
   <body>
     <header>
       <img src="img/logo.png" alt="Logo" height="50" width="200px" />
       <nav>
-        <a href="index.html">Todos os remédios</a>
-        <a href="index.html">Sobre nós</a>
-        <a href="contato.html">Fale conosco</a>
+        <li><a href="index.html">Todos os remédios</a></li>
+        <li><a href="index.html">Sobre nós</a></li>
+        <li><a href="contato.html">Fale conosco</a></li>
       </nav>
     </header>
+    <main>
+      <h1>Todos os medicamentos</h1>
+      <div class="card-produto">
+        <div class="favorito">
+          <span class="material-icons"> favorite </span>
+        </div>
+
+        <img
+          src="img/protetor-solar-po.webp"
+          alt="Imagem de um protetor solar em pó"
+          width="240"
+          height="240"
+        />
+
+        <div id="info-produto">
+          <h3 class="nome-produto">Nome do produto</h3>
+          <h2 class="valor-produto">Valor Produto</h2>
+          <button class="add-carrinho">
+            <span class="material-icons"> add </span>Adicionar
+          </button>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
