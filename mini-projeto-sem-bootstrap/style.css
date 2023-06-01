@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Lato, sans-serif;
+   }
+
+   header {
+    /*espaçamento nas laterais do header*/
+    padding: 0 100px;
+    /*fundo do header*/
+    background-color: #ffffff;
+    /*fixa o header na tela*/
+    position: fixed; 
+    /*posiciona o header no topo da pagina*/
+    top: 0;
+    /*para o header ocupar toda a largura da página*/
+    width: 100%; 
+      
+   }
+
+   .navbar {
+    /*define o tamanho do nav*/
+    height: 100px;
+    /*alinhar os itens horizontalmente*/
+    display: flex;
+    /*alinhar os itens verticalmente*/
+    align-items: center;
+    /*jogar os itens pra esquerda do elemento pai*/
+    justify-content: left;
+   }
+
+   .logo {
+    /*define um espaço entre o logo e os itens do menu*/
+    padding-right: 2rem;
+   }
+
+   .itens-menu{ 
+    /*Completar a altura total do header com os itens do menu*/
+    height: 100px;
+    /*alinhar os itens horizontalmente*/
+    display: flex;
+    /*alinhar os itens verticalmente*/
+    align-items: center;
+    /*pegar todo o espaço restante do header*/
+    width: 100%;
+   }
+
+   .itens-menu li {
+    /*Espaçamento entre os itens do menu*/
+    padding-right: 2rem;
+    /*Tamanho da fonte do menu*/
+    font-size: 1rem;
+   }
+   .itens-menu li a {
+    /*destaque na fonte dos itens*/
+    font-weight: bold;
+    /*cor dos itens do menu*/
+    color: black;
+    /*muda o cursor dos itens do menu*/
+    cursor: pointer;
+   }
+   
+main {
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.titulo-pagina {
+    margin: 0 100px;
+}
+
+/*efeitos nos itens do menu*/
+
+.itens-menu li a:hover {
+    border-bottom: 5px solid #009739;
+}
+
+.itens-menu li a:visited {
+    color:  rgb(36, 44, 38);
+}
+
+.itens-menu li a:active {
+    color:  #009739;
+}
+
+
+
+  
+   
+
+
