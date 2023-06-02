@@ -186,3 +186,59 @@ main {
 
   }
 
+/*--------------Página contato-----------------*/
+form {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 100px;
+}
+
+legend {
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 45px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] ,
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+    background:#009739;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-top: 35px;
+    float: right;
+    width: 300px;
+  }
+  input[type="submit"]:hover {
+    background: #006426;
+  }
+
+  label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  .label-inline {
+    display: inline;
+  }
+
+
+
+
