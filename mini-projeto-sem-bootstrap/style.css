@@ -20,6 +20,8 @@
     top: 0;
     /*para o header ocupar toda a largura da página*/
     width: 100%; 
+    z-index: 10;
+    box-shadow: 0px 0.1px 1px 0px rgba(0, 0, 0, 0.5);
       
    }
 
@@ -66,7 +68,6 @@
    }
    
 main {
-    border: 1px solid black;
     margin-top: 100px;
 }
 
@@ -88,9 +89,100 @@ main {
     color:  #009739;
 }
 
+/*Card*/
+.cards {
+    margin: 50px 100px;
+    
+    display: flex;
+    flex-flow : wrap;
+    justify-content: center;
+    
+}
+.card-produto {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    border-radius: 15px;
+}
+.card-produto:hover{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
 
+}
+.favorito {
+    display: flex;
+    justify-content: right;
+    padding: 1px 7px;
+    background-color: #c2e0cecc;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.favorito span{
+    color: #8176768a;
+    cursor: pointer;
+}
+
+.favorito span:hover{
+    color: #3a3939e3;
+}
+
+.card-produto img{
+    position: center;
+}
+
+#info-produto {
+    padding: 20px;
+    width: 100%;
+    background-color: #c2e0cecc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
   
-   
+.add-carrinho, .valor-produto, .nome-produto {
+ padding: 10px;
+}
+.nome-produto {
+    text-align: center;
+    font-size: 0.8rem;
+    height: 50px;
+}
 
+.btn-add-carrinho{
+    background:#009739;
+    display: inline-flex;
+    height: 40px;
+    width: 250px;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+    cursor: pointer;
+    align-items: center;
+  }
+  .btn-add-carrinho:hover {
+    background: #006426;
+  }
+
+  .btn-add-carrinho-text, .btn-add-carrinho-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    color: white;
+  }
+
+  .btn-add-carrinho-text{
+    position: relative;
+    left: -8%;
+    width: 100%;
+
+  }
 
