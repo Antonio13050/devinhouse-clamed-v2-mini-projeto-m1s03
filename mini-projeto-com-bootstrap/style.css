@@ -50,3 +50,26 @@
 main {
     margin-top: 76px;
 }
+
+#btn-form {
+    text-align: right;
+}
+
+/*Footer*/
+.footer-copyright-p {
+    padding: 10px;
+    margin-bottom: 0;
+}
+.footer-copyright-a {
+    font-weight: bold;
+    color: #444;
+}
+
+.footer-copyright-a:hover {
+    text-decoration: none;
+    color: #3ec1d5
+}
+
+hr {
+    width: 90%;
+}
