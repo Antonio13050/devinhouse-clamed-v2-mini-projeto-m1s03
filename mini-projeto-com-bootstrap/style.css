@@ -1,3 +1,7 @@
+*{
+    font-family: Lato, sans-serif;
+}
+
 .card-text {
     font-size: 0.9rem;
     height: 43px;
@@ -72,4 +76,23 @@ main {
 
 hr {
     width: 90%;
+}
+
+/*Pagina sobre*/
+.titulo-sobre {
+    font-size: 28px;
+}
+
+.redes-sociais{
+    width: 300px;
+}
+
+.redes-sociais-icons {
+    font-weight: bold;
+    color: #444;
+}
+
+.redes-sociais-icons:hover {
+    text-decoration: none;
+    color: #3ec1d5
 }
